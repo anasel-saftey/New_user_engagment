@@ -1,4 +1,5 @@
 # New_user_engagment
+## problem defintion
 we try to maximize the engagment of the user by predicting who will be engage in the website next month
 
 
@@ -10,15 +11,13 @@ This solution will help us establish and track our performance as a data science
 The error metric for this competition is the F1 score, which ranges from 0 (total failure) to 1 (perfect score). Hence, the closer your score is to 1, the better your model.
 
 F1 Score: A performance score that combines both precision and recall. It is a harmonic mean of these two variables. Formula is given as: 2*Precision*Recall/(Precision + Recall)
-
 Precision: This is an indicator of the number of items correctly identified as positive out of total items identified as positive. Formula is given as: TP/(TP+FP)
-
 Recall / Sensitivity / True Positive Rate (TPR): This is an indicator of the number of items correctly identified as positive out of total actual positives. Formula is given as: TP/(TP+FN)
 
 Where:
-
 TP=True Positive
 FP=False Positive
 TN=True Negative
 FN=False Negative
 This challenge has a rolling leaderboard. This means you will need to constantly build on your model. We will be rolling out new user and competition information each month to simulate a real model development pipeline as you receive new data. The final users you will need to predict for are users created in months 5 and 6.
+
